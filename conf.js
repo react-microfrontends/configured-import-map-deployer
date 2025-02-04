@@ -4,6 +4,7 @@ module.exports = {
   manifestFormat: "importmap",
   locations: {
     react: process.env.REACT_IMPORT_MAP_URL,
+    vue: process.env.VUE_IMPORT_MAP_URL
   },
   cacheControl: "no-store",
 };
